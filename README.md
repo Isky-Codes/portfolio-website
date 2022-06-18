@@ -1,7 +1,7 @@
 # Portfolio Website: <a href="#">Visit my page here!</a>
 
 ![Website screenshot 01](https://github.com/Isky-Codes/portfolio-website/blob/main/screenshots/Capture.PNG)
-![Website screenshot 02] (https://github.com/Isky-Codes/portfolio-website/blob/main/screenshots/bio.PNG)
+![Website screenshot 02](https://github.com/Isky-Codes/portfolio-website/blob/main/screenshots/bio.PNG)
 
 A repository that holds the HTML, CSS and Javascript of my personal portfolio website. 
 
