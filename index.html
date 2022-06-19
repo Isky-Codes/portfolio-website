@@ -12,32 +12,25 @@
     
     <body>
         <!--NAVBAR & INTRO PAGE-->
-        <section id="contact" class="w-screen h-screen bg-white pt-10" style="background-image: url('src/img/background2.png');">
+        <section id="contact" class="w-screen h-screen pt-10 background">
             
-            <!--NAVIGATION BAR-->
-            <!--<nav class="container w-1/2 h-20 mx-auto border-4 border-double border-matrix  border-r-0  border-l-0 flex flex-row justify-around items-center">
-                <a class="navText text-matrix text-xl" href="#">About Me</a>
-                <a class="navText text-matrix text-xl" href="#">Projects</a>
-                <a class="navText text-matrix text-xl" href="#">Experience</a>
-                <a class="navText text-matrix text-xl" href="#">Contact</a>
-            </nav>-->
-
             <!--INTRODUCTION-->
-            <div class="container mx-auto mt-10 w-1/2 h-5/6 flex flex-col justify-center items-center gap-6 pb-60">
+            <div class="container mx-auto mt-10 w-1/2 h-4/6 flex flex-col justify-center items-center gap-6 pb-54 mt-32">
                 <!--IMAGE-->
                 <img id="personalImage" class="w-80 h-80 rounded-full" src="src/img/MegatIskandar.JPG">
                 
                 <!--INTRO TEXT-->
-                <h1 class="text-black text-7xl introHeading">Megat Iskandar Shahriman</h1>
-                <p class="text-black text-2xl sectionText">Full-Stack Developer | Digital Marketer</p>
+                <h1 class="text-7xl introHeading bg-white">Megat Iskandar Shahriman</h1>
+                <p class="text-black text-3xl sectionText bg-white">Full-Stack Developer | Digital Marketer</p>
 
                 <!--SOCIAL MEDIA ICONS CONTAINER-->
-                <div class="container w-1/3 h-14 mx-auto flex flex-row justify-center items-center gap-6">
+                <div class="container w-fit h-14 mx-auto flex flex-row justify-center items-center gap-6 bg-white">
                     <a href="https://github.com/Isky-Codes"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/megat-iskandar-shahriman/"><i class="fa fa-linkedin"></i></a>
                     <a href="https://twitter.com/isky_codes"><i class="fa fa-twitter"></i></a>
                 </div>
             </div>
+        
         </section>
 
 
@@ -82,7 +75,7 @@
         </section>
 
         <!--SKILLS and EXPERIENCE-->
-        <section class="h-full bg-white mt-20 pb-20" style="background-image: url('src/img/background2.png');">
+        <section class="h-full bg-white mt-20 pb-20">
             <h1 class="text-center text-5xl pt-32 sectionHeading underline">Skills &amp Experience</h1>
 
             <div class="w-2/5 h-2/3 mx-auto mt-20 flex flex-row flex-wrap justify-around gap-2">
@@ -123,34 +116,33 @@
             </div>
         </section>
 
-        <!--SKILLS and EXPERIENCE-->
-        <section class="h-screen bg-white flex flex-col justify-center gap-10">
-            <h1 class="text-center text-5xl sectionHeading underline">Recent Projects</h1>
+        <!--Recent Projects-->
+        <section class="h-screen flex flex-col justify-start gap-20 mt-20 backgroundSolid">
+            <h1 class="text-center text-5xl text-white sectionHeading underline pt-20">Recent Projects</h1>
             
-            <div class="w-5/6 h-1/2 mx-auto border-2 border-solid border-rose-600 flex flex-row flex-wrap justify-evenly gap-4">
+            <div class="w-5/6 h-fit mx-auto flex flex-row flex-wrap justify-start gap-4">
                 <div class="basis-1/4">
                     <a href="https://isky-codes.github.io/rock-paper-scissors/" class="h-full w-full"><img  class="h-5/6" src="src/img/rps-project.PNG" ></a>
-                    <p class="expText text-center text-xl mt-4">Rock, Paper, Scissors</p>
+                    <p class="expText text-center text-2xl text-white mt-4">Rock, Paper, Scissors</p>
                 </div>
 
                 <div class="basis-1/4">
-                    <a href="https://isky-codes.github.io/tailwind-website-recreation/" class="h-full w-full"><img  class="h-5/6 border-2 border-black" src="src/img/tailwind-project.png" ></a>
-                    <p class="expText text-center text-xl mt-4">Tailwind</p>
+                    <a href="https://isky-codes.github.io/tailwind-website-recreation/" class="h-full w-full"><img  class="h-5/6" src="src/img/tailwind-project.png" ></a>
+                    <p class="expText text-center text-2xl text-white mt-4">Tailwind</p>
                 </div>
-
-
-
             </div> 
         </section>
 
+        <section class="h-[40rem] background  flex justify-center items-center">
+            <div class="w-1/2 h-5/6 flex flex-col justify-center items-center gap-10 pt-10">
+                <h1 class="sectionHeading underline text-5xl bg-white">CONTACT</h1>
+                <p class="sectionHeading text-xl bg-white text-center leading-7">If you have a project that requires my services, a job opportunity or even just a friendly coffee chat. Do be sure to hit me up through e-mail or on my associated accounts. I would love to hear from you!</p>
+                <button class="backgroundSolid text-white hover:bg-white text-black border-black border-2 font-bold py-2 px-4 rounded-full"><a href="#contact">CONTACT</a></button>
+            </div>
+        </section>
 
-        <!--
-        <section class="w-full h-96 bg-black mt-32">
-            <h1 class="text-matrix text-5xl text-center pt-20 tracking-widest">CONTACT </h1>
-            <p class="text-matrix text-xl text-center pt-10 leading-7">Whether you have a web project, opportunity, or casual conversation I would love to hear from you! <br>Please get in touch by dropping me a note on <a class="text-white" href="https://www.linkedin.com/in/megat-iskandar-shahriman/">LinkedIn,</a><a class ="text-white" href="https://twitter.com/isky_codes"> Twitter</a> or e-mail.
-            <div class="w-32 h-20 mx-auto mt-8 border-2 border-solid border-matrix bg-white rounded-r-xl rounded-l-xl"><p class="text-center pt-6"><a href="#contact">Contact</a></p></div>
-        </section>-->
+
+    
     </body>
 </html>
 
-w-1/5 h-2/5
