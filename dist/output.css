@@ -671,6 +671,22 @@ video {
   height: 40rem;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
+.h-\[16\.5rem\] {
+  height: 16.5rem;
+}
+
+.h-\[17rem\] {
+  height: 17rem;
+}
+
+.h-\[17\.5rem\] {
+  height: 17.5rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -679,8 +695,8 @@ video {
   width: 50%;
 }
 
-.w-80 {
-  width: 20rem;
+.w-60 {
+  width: 15rem;
 }
 
 .w-fit {
@@ -721,6 +737,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-\[17rem\] {
+  width: 17rem;
+}
+
+.w-\[16rem\] {
+  width: 16rem;
+}
+
+.w-\[16\.5rem\] {
+  width: 16.5rem;
+}
+
+.w-\[18rem\] {
+  width: 18rem;
 }
 
 .basis-1\/4 {
