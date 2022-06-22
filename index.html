@@ -111,50 +111,48 @@
         </section>
 
         <!--Recent Projects-->
-        <section class="h-[50rem] mt-[10rem] backgroundSolid">
-            <h1 class="text-center text-5xl text-white sectionHeading underline pt-20">Recent Projects</h1>
+        <section class="h-[85rem] flex flex-col gap-[2rem] mt-[10rem] backgroundSolid md:h-[40rem]">
+            <h1 class="text-center text-4xl text-white sectionHeading underline pt-20">Recent Projects</h1>
+            <div class="flex flex-col gap-[2rem] items-center md:flex-row md:justify-center">
+                <div class="">
+                    <a href="https://isky-codes.github.io/rock-paper-scissors/" class=""><img  class="w-[20rem] h-[20rem] rounded-lg" src="src/img/rps-project.PNG" ></a>
+                    <p class="expText text-center text-2xl text-white">Rock, Paper, Scissors</p>
+                </div>
+
+                <div class="">
+                    <a href="https://isky-codes.github.io/tailwind-website-recreation/" class=""><img  class="w-[20rem] h-[20rem] rounded-lg" src="src/img/tailwind-project.png" ></a>
+                    <p class="expText text-center text-2xl text-white">Manage Website</p>
+                </div>
+
+                <div class="">
+                    <a href="https://isky-codes.github.io/interactive-rating-component/" class=""><img  class="w-[20rem] h-[20rem] rounded-lg" src="src/img/interactive-rating-component.PNG" ></a>
+                    <p class="expText text-center text-2xl text-white">Interactive Rating Component</p>
+                </div>
+            </div>
         </section>
             
+        <!--Contact Form-->
+        <section class="h-[50rem] bg-white md:h-[40rem]">
             
-            <!--<div class="w-fit h-fit mx-auto flex flex-row flex-wrap justify-center gap-4">
-                <div class="basis-1/4">
-                    <a href="https://isky-codes.github.io/rock-paper-scissors/" class="h-full w-full"><img  class="h-5/6" src="src/img/rps-project.PNG" ></a>
-                    <p class="expText text-center text-2xl text-white mt-4">Rock, Paper, Scissors</p>
-                </div>
-
-                <div class="basis-1/4">
-                    <a href="https://isky-codes.github.io/tailwind-website-recreation/" class="h-full w-full"><img  class="h-5/6" src="src/img/tailwind-project.png" ></a>
-                    <p class="expText text-center text-2xl text-white mt-4">Tailwind Website</p>
-                </div>
-
-                <div class="basis-1/4">
-                    <a href="https://isky-codes.github.io/interactive-rating-component/" class="h-full w-full"><img  class="h-5/6" src="src/img/interactive-rating-component.PNG" ></a>
-                    <p class="expText text-center text-2xl text-white mt-4">Interactive Rating Component</p>
-                </div>
-
-            </div>-->
-        
-
-        <!--Contact Form
-        <section class="h-[50rem] bg-white flex flex-col justify-start">
-            <div class="w-5/6 h-5/6 flex flex-col justify-start gap-10 pt-10 pl-20">
-                <h1 class="sectionHeading underline text-5xl bg-white w-max">CONTACT</h1>
-                <p class="sectionHeading text-xl bg-white leading-7">If you have a project that requires my services, a job opportunity or even just a friendly coffee chat. Do be sure to hit me up through e-mail or on my associated accounts. I would love to hear from you!</p>
-                <form class="flex flex-col gap-6">
-                    <h3 class="sectionText text-xl bg-white w-max">Get in touch!</h3>
-                    <input class="w-1/6 h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="text" id="name" placeholder="Your Name..." required>
-                    <input class="w-1/6 h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="email" id="name" placeholder="Your Email..." required>
-                    <input class="w-1/6 h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="text" id="subject" placeholder="Subject..." required>
+            <div class="h-max w-5/6 ml-[2rem] flex flex-col gap-[1rem] mt-[2rem]">
+                <h1 class="text-4xl sectionHeading underline text-left">CONTACT</h1>
+                <p class="sectionText text-justify md:text-xl">If you have a project that requires my services, a job opportunity or even just a friendly coffee chat. Do be sure to hit me up through e-mail or on my associated accounts. I would love to hear from you!</p>
+                <form class="flex flex-col gap-[1rem]">
+                    <h3 class="sectionText text-xl text-bold">Get in touch!</h3>
+                    <input class="w-max h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="text" id="name" placeholder="Your Name..." required>
+                    <input class="w-max h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="email" id="name" placeholder="Your Email..." required>
+                    <input class="w-max h-8 border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" type="text" id="subject" placeholder="Subject..." required>
                     <textarea class="border-solid border-2 border-black placeholder-gray-200 rounded-lg bg-zinc-700 pl-[14px] text-white text-lg" id="message" rows="7" placeholder="How can I help?"></textarea>
                     <button type="submit" class="bg-matrix text-white rounded-lg w-20 h-8 sectionText hover:bg-orange-600">Send</button>
                 </form>
             </div> 
+        
         </section>
 
-        Footer
+        <!--Footer-->
         <div class="h-[5rem] backgroundSolid">
-            <h3 class="sectionText text-white text-center text-xl pt-5">&copy; Megat Iskandar Shahriman 2022</h3>
-        </div>-->
+            <h3 class="sectionText text-white text-center text-md pt-5 md:text-xl">&copy; Megat Iskandar Shahriman 2022</h3>
+        </div>
 
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
