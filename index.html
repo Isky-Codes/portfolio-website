@@ -11,20 +11,20 @@
     </head>
     
     <body>
-        <!--NAVBAR & INTRO PAGE-->
-        <section id="contact" class="w-screen h-screen pt-10 background">
+        <!--INTRO PAGE-->
+        <section id="contact" class="h-screen background md:w-screen">
             
             <!--INTRODUCTION-->
-            <div class="container mx-auto mt-10 w-1/2 h-4/6 flex flex-col justify-center items-center gap-6 pb-54 mt-32">
+            <div class="h-screen flex flex-col justify-center items-center p-10">
                 <!--IMAGE-->
-                <img id="personalImage" class="w-50 h-80 rounded-full" src="src/img/personal.jpg">
+                <img id="personalImage" class="w-30 h-60 rounded-full md:w-[20rem] md:h-[25rem]" src="src/img/personal.jpg">
                 
                 <!--INTRO TEXT-->
-                <h1 class="text-7xl introHeading bg-white">Megat Iskandar Shahriman</h1>
-                <p class="text-black text-3xl sectionText bg-white">Full-Stack Developer | Digital Marketer</p>
+                <h1 class= "bg-white text-center text-5xl introHeading m-5 md:text-7xl">Megat Iskandar Shahriman</h1>
+                <p class="text-black text-2xl sectionText bg-white md:text-4xl">Full-Stack Developer</p>
 
                 <!--SOCIAL MEDIA ICONS CONTAINER-->
-                <div class="container w-fit h-14 mx-auto flex flex-row justify-center items-center gap-6 bg-white">
+                <div class="container w-fit h-14 mx-auto flex flex-row justify-center items-center gap-6 bg-white mt-5">
                     <a href="https://github.com/Isky-Codes"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/megat-iskandar-shahriman/"><i class="fa fa-linkedin"></i></a>
                     <a href="https://twitter.com/isky_codes"><i class="fa fa-twitter"></i></a>
@@ -37,35 +37,32 @@
         <!--BIO BLURB-->
         
         <!--SECTION CONTAINER-->
-        <section class="w-screen h-5/6 bg-white">
-            <h1 class="text-center text-5xl pt-32 sectionHeading underline">About Me</h1>
+        <section class="w-screen h-[75rem] bg-white flex flex-col justify-start gap-[2rem] md:items-center md:h-[50rem]">
+            <h1 class="text-center text-5xl pt-[5rem] sectionHeading underline">About Me</h1>
             
             <!--BIO-->
-            <div class="w-1/2 h-5/6 mx-auto flex flex-row justify-center gap-28 items-start">
-                <div class="w-max h-max flex flex-row mt-24">
-                    <div class="w-28 h-1/4 flex flex-col gap-4">
-                        <p class="sectionText font-bold">Name:</p>
-                        <p class="sectionText font-bold">E-mail:</p>
-                        <p class="sectionText font-bold">Location:</p>
+            <div class="h-full w-screen flex flex-col gap-[3rem] pl-[1rem] md:w-3/6 md:flex md:flex-row md:gap-[6rem] md:pt-[2rem]">
+                <div class="h-max w-max flex flex-row gap-[1rem]">
+                    <div class="flex flex-col gap-[2rem]">
+                        <p class="sectionText font-bold md:text-lg">Name:</p>
+                        <p class="sectionText font-bold md:text-lg">E-mail:</p>
+                        <p class="sectionText font-bold md:text-lg">Location:</p>
                     </div>
 
-                    <div class="w-64 h-1/4 flex flex-col gap-4 pl-4">
-                        <p class="sectionText">Megat Iskandar Shahriman</p>
-                        <p class="sectionText">shahriman.iskandar@gmail.com</p>
-                        <p class="sectionText">Kuala Lumpur, Malaysia</p>
+                    <div class="flex flex-col gap-[2rem]">
+                        <p class="sectionText md:text-lg text-slate-700">Megat Iskandar Shahriman</p>
+                        <p class="sectionText md:text-lg text-slate-700">shahriman.iskandar@gmail.com</p>
+                        <p class="sectionText md:text-lg text-slate-700">Kuala Lumpur, Malaysia</p>
                     </div>
-                    
                 </div>
-                
-                <div class="w-5/6 h-5/6 mt-24 flex flex-col justify-start items-start">
-                    <h2 class="text-3xl sectionText">Hi, I'm Iskandar!</h2>
-                    <p class="mt-6 leading-7 sectionText text-justify">I am a software engineer specializing in full-stack development. Prior to this, I was a digital media strategist working on clients such as Abbott Nutrition and IKEA South-East Asia in developing multi-pronged digital marketing campaigns at a multi-national digital agency.</p>
-                    
-                    <p class="mt-6 leading-7 sectionText text-justify">At present, I am further developing my programming skills at a specialized software engineering agency where I am creating full-stack web applications using HTML, CSS, Tailwind, Javascript, and NodeJS.</p>
-                    
-                    <p class="mt-6 leading-7 sectionText text-justify">Born and bred in Kuala Lumpur, I completed my degree in International Relations at the Royal Melbourne Institute of Technology in Australia before moving back in 2020. I am an avid cross-stitcher, lego-builder and video gamer and dabble in a bit of film photography. But you can also find me spending a lot of my time at the gym or at a punching bag in a Muay Thai lesson. Currently addicted to Elden Ring.</p>
 
-                    <div class="container w-1/3 h-14 mt-10 flex flex-row justify-start items-start gap-6">
+                <div class="w-fit flex flex-col gap-[1rem] md:w-5/6">
+                    <h2 class="sectionText text-3xl">Hi, I'm Iskandar</h2>
+                    <p class="sectionText text-justify leading-relaxed">I am a software engineer specializing in full-stack development. Prior to this, I was a digital media strategist working on clients such as Abbott Nutrition and IKEA South-East Asia in developing multi-pronged digital marketing campaigns at a multi-national digital agency.</p>
+                    <p class="sectionText text-justify leading-relaxed">At present, I am further developing my programming skills at a specialized software engineering agency where I am creating full-stack web applications using HTML, CSS, Tailwind, Javascript, and NodeJS.</p>
+                    <p class="sectionText text-justify leading-relaxed">Born and bred in Kuala Lumpur, I completed my degree in International Relations at the Royal Melbourne Institute of Technology in Australia before moving back in 2020. I am an avid cross-stitcher, lego-builder and video gamer and dabble in a bit of film photography. But you can also find me spending a lot of my time at the gym or at a punching bag in a Muay Thai lesson. Currently addicted to Elden Ring.</p>
+
+                    <div class="flex flex-row gap-[1rem] md:mt-[1rem]">
                         <a href="https://github.com/Isky-Codes"><i class="fa fa-github socialLinksBottom"></i></a>
                         <a href="https://www.linkedin.com/in/megat-iskandar-shahriman/"><i class="fa fa-linkedin socialLinksBottom"></i></a>
                         <a href="https://twitter.com/isky_codes"><i class="fa fa-twitter socialLinksBottom"></i></a>
@@ -73,55 +70,53 @@
                     </div>
                 </div>
             </div>
+           
         </section>
 
-        <!--SKILLS and EXPERIENCE-->
-        <section class="h-full bg-white mt-20 pb-20">
-            <h1 class="text-center text-5xl pt-32 sectionHeading underline">Skills &amp Experience</h1>
-
-            <div class="w-2/5 h-2/3 mx-auto mt-20 flex flex-row flex-wrap justify-around gap-2">
-                
-                <div class="w-fit h-fit flex flex-col justify-center items-center basis-1/4">
-                    <img src="https://cdn.sanity.io/images/ch3ylvcj/production/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.png" alt="Html logo">
-                    <p class="expText text-xl">HTML</p>
-                </div>
-                
-                <div class="w-1/6 h-fit flex flex-col justify-center items-center basis-1/4">
-                    <img src="https://cdn.sanity.io/images/ch3ylvcj/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png" alt="Css">
-                    <p class="expText text-xl">CSS</p>
+       <!--SKILLS and EXPERIENCE-->
+        <section class="h-max bg-white flex flex-col justify-start gap-[5rem]">
+            <h1 class="text-center text-3xl mt-[5rem] sectionHeading underline md:text-5xl">Skills &amp Experience</h1>
+            
+            <div class="w-1/2 h-max mx-auto flex flex-col justify-start items-center gap-[1rem] md:flex-row md:justify-center md:flex-wrap md:w-[70rem]">
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="https://cdn.sanity.io/images/ch3ylvcj/production/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.png" alt="HTML Logo">
+                    <p class="expText text-center text-xl">HTML</p>
                 </div>
 
-                <div class="w-1/6 h-fit flex flex-col justify-center items-center basis-1/4 mt-4">
-                    <img src="src/img/tailwind-css-icon.svg" alt="Tailwind" class="pb-20">
-                    <p class="expText text-xl">Tailwind</p>
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="https://cdn.sanity.io/images/ch3ylvcj/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png" alt="CSS Logo">
+                    <p class="expText text-center text-xl">CSS</p>
                 </div>
 
-
-
-                <div class="w-1/6 h-fit flex flex-col justify-center items-center basis-1/4 mt-8">
-                    <img src="https://cdn.sanity.io/images/ch3ylvcj/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png" alt="Node.js">
-                    <p class="expText text-xl">Node.js</p>
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="https://cdn.sanity.io/images/ch3ylvcj/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png" alt="Javascript Logo">
+                    <p class="expText text-center text-xl">Javascript</p>
                 </div>
 
-                <div class="w-1/6 h-fit flex flex-col justify-center items-center basis-1/4 mt-8">
-                    <img src="https://cdn.sanity.io/images/ch3ylvcj/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png" alt="Javascript">
-                    <p class="expText text-xl">Javascript</p>
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="/src/img/tailwind-css-icon.svg" alt="Tailwind Logo">
+                    <p class="expText text-center text-xl">Tailwind</p>
                 </div>
 
-                <div class="w-1/6 h-5/6 flex flex-col justify-center items-center basis-1/4">
-                    <img src="https://cdn.sanity.io/images/ch3ylvcj/production/edeb5fbeb23f61d362fb897d9f76c84dcfba5bf9-464x537.png" alt="MongoDB">
-                    <p class="expText text-xl">MongoDB</p>
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="https://cdn.sanity.io/images/ch3ylvcj/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png" alt="Node.js Logo">
+                    <p class="expText text-center text-xl">Node.js</p>
                 </div>
 
-          
+                <div class="w-max h-max">
+                    <img class="w-[10rem] h-[10rem] md:w-[20rem] md:h-[20rem]" src="https://cdn.sanity.io/images/ch3ylvcj/production/edeb5fbeb23f61d362fb897d9f76c84dcfba5bf9-464x537.png" alt="MongoDB">
+                    <p class="expText text-center text-xl">Mongo.db</p>
+                </div>
             </div>
         </section>
 
         <!--Recent Projects-->
-        <section class="h-screen flex flex-col justify-start gap-20 mt-20 backgroundSolid">
+        <section class="h-[50rem] mt-[10rem] backgroundSolid">
             <h1 class="text-center text-5xl text-white sectionHeading underline pt-20">Recent Projects</h1>
+        </section>
             
-            <div class="w-fit h-fit mx-auto flex flex-row flex-wrap justify-center gap-4">
+            
+            <!--<div class="w-fit h-fit mx-auto flex flex-row flex-wrap justify-center gap-4">
                 <div class="basis-1/4">
                     <a href="https://isky-codes.github.io/rock-paper-scissors/" class="h-full w-full"><img  class="h-5/6" src="src/img/rps-project.PNG" ></a>
                     <p class="expText text-center text-2xl text-white mt-4">Rock, Paper, Scissors</p>
@@ -137,10 +132,10 @@
                     <p class="expText text-center text-2xl text-white mt-4">Interactive Rating Component</p>
                 </div>
 
-            </div> 
-        </section>
+            </div>-->
+        
 
-        <!--Contact Form-->
+        <!--Contact Form
         <section class="h-[50rem] bg-white flex flex-col justify-start">
             <div class="w-5/6 h-5/6 flex flex-col justify-start gap-10 pt-10 pl-20">
                 <h1 class="sectionHeading underline text-5xl bg-white w-max">CONTACT</h1>
@@ -156,10 +151,10 @@
             </div> 
         </section>
 
-        <!--Footer-->
+        Footer
         <div class="h-[5rem] backgroundSolid">
             <h3 class="sectionText text-white text-center text-xl pt-5">&copy; Megat Iskandar Shahriman 2022</h3>
-        </div>
+        </div>-->
 
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
